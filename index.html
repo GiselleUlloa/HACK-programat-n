@@ -10,12 +10,26 @@
 </head>
 <body>
 
-<header>
+<header class="site-header" role="banner">
   <div class="container header-container">
-    <h1 class="logo">Programatón</h1>
-    <p class="slogan">Aprende, Crea y Compite</p>
-    <nav aria-label="Navegación principal">
-      <ul class="nav-menu">
+    
+    <!-- Logo y slogan -->
+    <div class="branding">
+      <h1 class="logo">
+        <img src="media/logo-programaton.png" alt="Logo del Programatón" width="50" style="vertical-align: middle;">
+        Programatón
+      </h1>
+      <p class="slogan">Aprende, Crea y Compite</p>
+    </div>
+
+    <!-- Botón Hamburguesa (sin JS aún) -->
+    <button id="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+      ☰
+    </button>
+
+    <!-- Menú de navegación -->
+    <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+      <ul id="nav-menu" class="nav-menu">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#sobre-evento">Sobre el Evento</a></li>
         <li><a href="#ediciones-anteriores">Ediciones Anteriores</a></li>
@@ -23,22 +37,42 @@
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
+
   </div>
 </header>
+
 
 <main>
 
   <!-- Hero -->
-  <section id="inicio" class="hero-section container" aria-label="Sección de bienvenida">
-    <div class="hero-text">
-      <h2>¡Bienvenidos al Programatón!</h2>
-      <p>Una experiencia única para aprender, crear y competir en desarrollo de software.</p>
-      <a href="#participa" class="btn-primary">Regístrate para la próxima edición</a>
-    </div>
-    <div class="hero-media">
-      <img src="media/programaton-2025-hero.jpg" alt="Participantes del Programatón 2025 en acción" />
-    </div>
-  </section>
+  <!-- Sección de Bienvenida -->
+<section id="inicio">
+  <div>
+    <h2>¡Bienvenidos al Programatón!</h2>
+    <p>Una experiencia única para aprender, crear y competir en desarrollo de software.</p>
+    <p><strong>Muy pronto abriremos inscripciones para la próxima edición.</strong></p>
+  </div>
+
+  <div>
+    <img src="media/programaton-2025-hero.jpg" alt="Participantes del Programatón 2025 en acción" width="100%" />
+  </div>
+</section>
+
+<!-- Sección Próxima Edición -->
+<section id="proxima-edicion">
+  <h2>🚀 ¡Muy pronto abriremos el registro!</h2>
+  <p>
+    Aún no tenemos fecha confirmada para la próxima edición,<br>
+    pero no te preocupes... estamos cocinando algo increíble. 🍳💻
+  </p>
+  <p>
+    ¿Quieres ser de los primeros en enterarte?<br>
+    <a href="https://formulario-ejemplo.com" target="_blank">
+      <button>Déjanos tu correo aquí</button>
+    </a>
+  </p>
+</section>
+
 
   <!-- Sobre el Evento -->
   <section id="sobre-evento" class="container">
@@ -165,10 +199,32 @@
 
 </main>
 
+ <!-- PREGUNTAS  FRECUENTES  -->
+
+<section class="faq container" id="faq">
+  <h2>FAQ</h2>
+  <ul>
+    <li><strong>¿Laptop?</strong> Sí, y no olvides el cargador 🔌.</li>
+    <li><strong>¿IDE?</strong> Tenlo preinstalado (VS Code, etc.).</li>
+    <li><strong>¿Comida?</strong> Habrá snacks 🥪 y buena vibra ✨.</li>
+  </ul>
+</section>
+
 <footer class="footer container">
   <p>&copy; 2025 Programatón. Todos los derechos reservados.</p>
   <p>Sitio desarrollado con 💻 por la comunidad Caribe Dev.</p>
+  <p>
+    Síguenos en 
+    <a href="https://instagram.com/programaton" target="_blank">Instagram</a> | 
+    <a href="https://twitter.com/programaton" target="_blank">Twitter</a>
+  </p>
+  <p>
+    <a href="/politica-privacidad.html" target="_blank">Política de Privacidad</a> | 
+    <a href="/terminos-servicio.html" target="_blank">Términos de Servicio</a>
+  </p>
 </footer>
+</body>
+<
 
 </body>
 </html>
