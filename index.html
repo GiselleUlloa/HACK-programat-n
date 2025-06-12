@@ -1,194 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Programatón - Aprende, Crea y Compite</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Programatón: Aprende, crea y compite en este hackatón de software en la región Caribe." />
+  <title>Programatón - Aprende, Crea y Compite</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
-    <div class="container header-container">
-        <h1 class="logo">Programatón</h1>
-        <p class="slogan">Aprende, Crea y Compite</p>
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-evento">Sobre el Evento</a></li>
-                <li><a href="#ediciones-anteriores">Ediciones Anteriores</a></li>
-                <li><a href="#participa">Participa</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="container header-container">
+    <h1 class="logo">Programatón</h1>
+    <p class="slogan">Aprende, Crea y Compite</p>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-evento">Sobre el Evento</a></li>
+        <li><a href="#ediciones-anteriores">Ediciones Anteriores</a></li>
+        <li><a href="#participa">Participa</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main>
-    <!-- Sección Hero -->
-    <section id="inicio" class="hero-section container">
-        <div class="hero-text">
-            <h2>¡Bienvenidos al Programatón!</h2>
-            <p>Una experiencia única para aprender, crear y competir en desarrollo de software.</p>
-            <a href="#participa" class="btn-primary">Regístrate para la próxima edición</a>
-        </div>
-        <div class="hero-media">
-            <!-- Imagen o video -->
-            <img src="media/programaton-2025-hero.jpg" alt="Foto Programatón 2025" />
-            <!-- Si quieres video, reemplaza el img por un video tag -->
-        </div>
-    </section>
 
-    <!-- Sobre el Evento -->
-    <section id="sobre-evento" class="container">
-        <h2>Sobre el Evento</h2>
-        <p>
-            Programatón es un hackatón de programación que reúne a estudiantes, desarrolladores y entusiastas de la tecnología para resolver retos reales, fomentar la innovación y fortalecer las habilidades técnicas y colaborativas.
-        </p>
+  <!-- Hero -->
+  <section id="inicio" class="hero-section container" aria-label="Sección de bienvenida">
+    <div class="hero-text">
+      <h2>¡Bienvenidos al Programatón!</h2>
+      <p>Una experiencia única para aprender, crear y competir en desarrollo de software.</p>
+      <a href="#participa" class="btn-primary">Regístrate para la próxima edición</a>
+    </div>
+    <div class="hero-media">
+      <img src="media/programaton-2025-hero.jpg" alt="Participantes del Programatón 2025 en acción" />
+    </div>
+  </section>
 
-        <h3>Objetivos</h3>
-        <ul>
-            <li>Fomentar el aprendizaje práctico en desarrollo de software.</li>
-            <li>Impulsar la creatividad y el trabajo en equipo.</li>
-            <li>Crear una red de talento tecnológico en la región.</li>
-        </ul>
+  <!-- Sobre el Evento -->
+  <section id="sobre-evento" class="container">
+    <h2>Sobre el Evento</h2>
+    <p>
+      Programatón es un hackatón que conecta mentes creativas para resolver desafíos reales, fomentar la innovación y fortalecer habilidades técnicas.
+    </p>
+    <h3>Objetivos</h3>
+    <ul>
+      <li>Fomentar el aprendizaje práctico en desarrollo de software.</li>
+      <li>Impulsar la creatividad y el trabajo en equipo.</li>
+      <li>Crear una red de talento tecnológico en la región.</li>
+    </ul>
+    <h3>Público objetivo</h3>
+    <p>Estudiantes universitarios, devs junior y senior, y apasionados por la tecnología.</p>
+  </section>
 
-        <h3>Público objetivo</h3>
-        <p>Estudiantes universitarios, desarrolladores junior y senior, entusiastas de la tecnología, y comunidad tecnológica local.</p>
-    </section>
+  <!-- Ediciones Anteriores -->
+  <section id="ediciones-anteriores" class="container">
+    <h2>Ediciones Anteriores</h2>
+    <div class="galeria-fotos">
+      <img src="media/edicion-2024-1.jpg" alt="Equipo ganador del Programatón 2024" />
+      <img src="media/edicion-2023-1.jpg" alt="Participantes trabajando en el Programatón 2023" />
+      <img src="media/edicion-2022-1.jpg" alt="Hackers en acción - Programatón 2022" />
+    </div>
+    <div class="testimonios">
+      <blockquote>
+        “Programatón me ayudó a desarrollar mis habilidades y conocer personas increíbles.” – María López, 2024
+      </blockquote>
+      <blockquote>
+        “La experiencia fue increíble, el networking y los retos me motivaron a seguir creciendo.” – Juan Pérez, 2023
+      </blockquote>
+    </div>
+    <h3>Proyectos Destacados</h3>
+    <ul>
+      <li><strong>2024:</strong> Plataforma web de aprendizaje colaborativo.</li>
+      <li><strong>2023:</strong> App móvil para gestión comunitaria.</li>
+      <li><strong>2022:</strong> Sistema inteligente para optimizar recursos.</li>
+    </ul>
+  </section>
 
-    <!-- Ediciones Anteriores -->
-    <section id="ediciones-anteriores" class="container">
-        <h2>Ediciones Anteriores</h2>
+  <!-- Participa -->
+  <section id="participa" class="container">
+    <h2>Participa</h2>
+    <p>¿Quieres ser parte del próximo Programatón? Aquí te contamos cómo.</p>
+    <h3>Cómo inscribirse</h3>
+    <ol>
+      <li>Regístrate en nuestra plataforma.</li>
+      <li>Completa tu perfil y únete o forma un equipo.</li>
+      <li>Prepárate para una jornada intensa y divertida.</li>
+    </ol>
+    <h3>Requisitos</h3>
+    <ul>
+      <li>Estudiante o profesional con pasión por la tecnología.</li>
+      <li>Ganas de aprender, resolver retos y colaborar.</li>
+      <li>Equipos de 3 a 5 personas (opcional).</li>
+    </ul>
+    <h3>Fechas Tentativas</h3>
+    <p>20 y 21 de septiembre de 2025.</p>
+  </section>
 
-        <div class="galeria-fotos">
-            <img src="media/edicion-2024-1.jpg" alt="Foto Edición 2024" />
-            <img src="media/edicion-2023-1.jpg" alt="Foto Edición 2023" />
-            <img src="media/edicion-2022-1.jpg" alt="Foto Edición 2022" />
-            <!-- Agrega más fotos según necesites -->
-        </div>
+  <!-- Patrocinadores -->
+  <section id="patrocinadores" class="container">
+    <h2>Patrocinadores y Aliados</h2>
+    <div class="logos-patrocinadores">
+      <img src="media/logo-universidad-cartagena.png" alt="Logo Universidad de Cartagena" />
+      <img src="media/logo-pioneras-dev.png" alt="Logo Pioneras Dev Cartagena" />
+      <img src="media/logo-caribe-dev.png" alt="Logo Caribe Dev" />
+      <img src="media/logo-empresa1.png" alt="Empresa patrocinadora 1" />
+      <img src="media/logo-empresa2.png" alt="Empresa patrocinadora 2" />
+    </div>
+    <p>¿Quieres ser patrocinador? <a href="#contacto">Contáctanos</a>.</p>
+  </section>
 
-        <div class="testimonios">
-            <blockquote>
-                "Programatón me ayudó a desarrollar mis habilidades y conocer personas increíbles." – María López, participante 2024
-            </blockquote>
-            <blockquote>
-                "La experiencia fue increíble, el networking y los retos me motivaron a seguir creciendo." – Juan Pérez, participante 2023
-            </blockquote>
-        </div>
+  <!-- Equipo -->
+  <section id="equipo" class="container">
+    <h2>Equipo Organizador y Fundadores</h2>
+    <div class="equipo-miembros">
+      <article class="miembro">
+        <img src="media/giselle-ulloa.jpg" alt="Foto de Giselle Andrea Ulloa" />
+        <h3>Giselle Andrea Ulloa</h3>
+        <p>Fundadora y Coordinadora General</p>
+        <p>Estudiante de Ingeniería de Software, apasionada por el empoderamiento femenino en tech.</p>
+        <a href="https://linkedin.com/in/giulloa" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </article>
+      <article class="miembro">
+        <img src="media/kelly-villa.jpg" alt="Foto de Kelly Villa" />
+        <h3>Kelly Villa</h3>
+        <p>Coordinadora de Pioneras Dev Cartagena</p>
+        <p>Impulsora de comunidades tech en Cartagena.</p>
+        <a href="https://linkedin.com/in/kellyvilla" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </article>
+      <article class="miembro">
+        <img src="media/antonio-hurtado.jpg" alt="Foto de Antonio Hurtado" />
+        <h3>Antonio Hurtado</h3>
+        <p>Colaborador Técnico</p>
+        <p>Ingeniero de software y mentor en eventos Caribe Dev.</p>
+        <a href="https://linkedin.com/in/antoniohurtado" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </article>
+    </div>
+    <h3>Comunidades Aliadas</h3>
+    <ul>
+      <li><strong>Pioneras Dev Cartagena</strong></li>
+      <li><strong>Caribe Dev</strong></li>
+      <li><strong>Magangué Devs</strong></li>
+      <li><strong>Tech Costa</strong></li>
+    </ul>
+  </section>
 
-        <h3>Proyectos Destacados y Ganadores</h3>
-        <ul>
-            <li><strong>Proyecto A (2024):</strong> Plataforma web de aprendizaje colaborativo.</li>
-            <li><strong>Proyecto B (2023):</strong> App móvil para gestión comunitaria.</li>
-            <li><strong>Proyecto C (2022):</strong> Sistema inteligente para optimizar recursos.</li>
-        </ul>
-    </section>
+  <!-- Contacto -->
+  <section id="contacto" class="container">
+    <h2>Contacto</h2>
+    <p>¿Dudas? ¿Quieres unirte o patrocinar? ¡Hablemos!</p>
+    <form action="mailto:contacto@programaton.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit" class="btn-primary">Enviar</button>
+    </form>
+  </section>
 
-    <!-- Participa -->
-    <section id="participa" class="container">
-        <h2>Participa</h2>
-        <p>¿Quieres ser parte de la próxima edición del Programatón? Aquí tienes toda la info para inscribirte.</p>
-
-        <h3>Cómo inscribirse</h3>
-        <ol>
-            <li>Regístrate en nuestra plataforma.</li>
-            <li>Completa tu perfil y selecciona tu equipo o busca uno.</li>
-            <li>Prepárate para la jornada intensiva de desarrollo.</li>
-        </ol>
-
-        <h3>Requisitos</h3>
-        <ul>
-            <li>Ser estudiante o profesional interesado en tecnología.</li>
-            <li>Tener ganas de aprender y colaborar.</li>
-            <li>Equipo de 3 a 5 personas (opcional, puedes participar solo y unirte a uno).</li>
-        </ul>
-
-        <h3>Fechas tentativas</h3>
-        <p>Próxima edición: 20 y 21 de septiembre de 2025.</p>
-    </section>
-
-    <!-- Patrocinadores y Aliados -->
-    <section id="patrocinadores" class="container">
-        <h2>Patrocinadores y Aliados</h2>
-
-        <div class="logos-patrocinadores">
-            <img src="media/logo-universidad-cartagena.png" alt="Universidad de Cartagena" />
-            <img src="media/logo-pioneras-dev.png" alt="Pioneras Dev Cartagena" />
-            <img src="media/logo-caribe-dev.png" alt="Caribe Dev" />
-            <img src="media/logo-empresa1.png" alt="Empresa Patrocinadora 1" />
-            <img src="media/logo-empresa2.png" alt="Empresa Patrocinadora 2" />
-            <!-- Agrega más logos -->
-        </div>
-
-        <p>¿Quieres ser patrocinador? <a href="#contacto">Contáctanos</a> para más información.</p>
-    </section>
-
-    <!-- Equipo Organizativo -->
-    <section id="equipo" class="container">
-        <h2>Equipo Organizador y Fundadores</h2>
-
-        <div class="equipo-miembros">
-            <article class="miembro">
-                <img src="media/giselle-ulloa.jpg" alt="Giselle Ulloa" />
-                <h3>Giselle Andrea Ulloa</h3>
-                <p>Fundadora y Coordinadora General | Estudiante de Ingeniería de Software</p>
-                <p>Apasionada por la tecnología, la inclusión y el empoderamiento femenino en el sector tecnológico. Líder activa en Pioneras Dev Cartagena.</p>
-                <a href="https://linkedin.com/in/giulloa" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </article>
-            <article class="miembro">
-                <img src="media/kelly-villa.jpg" alt="Kelly Villa" />
-                <h3>Kelly Villa</h3>
-                <p>Coordinadora de Pioneras Dev Cartagena</p>
-                <p>Impulsora de comunidades tech en Cartagena y defensora de la diversidad en tecnología.</p>
-                <a href="https://linkedin.com/in/kellyvilla" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </article>
-            <article class="miembro">
-                <img src="media/antonio-hurtado.jpg" alt="Antonio Hurtado" />
-                <h3>Antonio Hurtado</h3>
-                <p>Colaborador Técnico</p>
-                <p>Ingeniero de software y mentor en eventos tecnológicos de la región Caribe.</p>
-                <a href="https://linkedin.com/in/antoniohurtado" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </article>
-            <!-- Agrega más miembros -->
-        </div>
-
-        <h3>Comunidades Aliadas</h3>
-        <ul>
-            <li><strong>Pioneras Dev Cartagena</strong> - Comunidad para mujeres en tecnología.</li>
-            <li><strong>Caribe Dev</strong> - Comunidad regional de desarrolladores.</li>
-            <li><strong>Magangué Devs</strong> - Comunidad emergente en Magangué.</li>
-            <li><strong>Tech Costa</strong> - Comunidad de tecnología en la Costa Caribe.</li>
-            <!-- Agrega más -->
-        </ul>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contacto" class="container">
-        <h2>Contacto</h2>
-        <p>¿Tienes dudas, quieres ser patrocinador o quieres unirte al equipo? Escríbenos:</p>
-
-        <form action="mailto:contacto@programaton.com" method="post" enctype="text/plain">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required />
-
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
 </main>
 
-<footer>
-    <div class="container footer-container">
-        <p>© 2025 Programatón. Todos los derechos reservados.</p>
-        <p>Agradecimientos especiales a la Universidad de Cartagena y la Facultad de Ingeniería.</p>
-    </div>
+<footer class="container">
+  <p>&copy; 2025 Programatón. Todos los derechos reservados.</p>
 </footer>
 
 </body>
